@@ -3,16 +3,11 @@ html{
 }
 
 h1{
-    display: block;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: azure;
+    font-size: 22px;
     background-color: rgb(45, 43, 43);
-    position:absolute;
-    margin: 0;
-    padding: 2.5PX;
-    top:0;
-    left:0;
-    width: 100;
     }
 
 a{
@@ -32,6 +27,19 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
     font-size: 30px;
+    text-align: center;
+}
+
+.home{
+
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+    width: 50%;
+    position:absolute;
+    margin-top: 4%;
+    margin-left: 23%;
 }
 
 .mission{
@@ -40,15 +48,31 @@ h2{
     padding: 20px;
     font-size: 200%;
     color:burlywood;
+    width:66%;
+    text-align: center;
     
 }
 .picture {
     display: inline-block;
     height: 170px;
     width: 170px;
-    margin: 1%;
-    padding: 10px;
+    margin: 5%;
+    padding: 1px;
+    text-align: center;
+    
            
+  }
+
+  header {
+    display: block;
+    background-color: rgb(45, 43, 43);
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 5;
+    padding: 5;
+    width: 100%;
+    z-index: 10;
   }
 
   footer {
@@ -61,6 +85,24 @@ h2{
     width: 100%;
  
   }
+
+  .soccer{
+    color: wheat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .travel{
+    color: rgb(154, 230, 78);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+
+  .project{
+    color: rgb(175, 241, 34);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+  }
+
 
 
 
