@@ -3,24 +3,30 @@ html{
 }
 
 h1{
+    display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: azure;
     background-color: rgb(45, 43, 43);
+    position:absolute;
+    margin: 0;
+    padding: 2.5PX;
+    top:0;
+    left:0;
+    width: 100;
     }
 
 a{
-    color: antiquewhite;
-}
-
-a:link {
+    color: rgb(239, 239, 222);
     text-decoration: none;
-  }
+}
 
 a:active {
     text-decoration: underline;
     color: chocolate;
 }
-
+.links{
+    text-align-last: right;
+}
 
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,9 +40,8 @@ h2{
     padding: 20px;
     font-size: 200%;
     color:burlywood;
-    size: 30px;
+    
 }
-
 .picture {
     display: inline-block;
     height: 170px;
