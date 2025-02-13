@@ -1,4 +1,5 @@
 
-const str = "You opened Ilian's Personal Website. Proceed at your own risk."
+const str = "Hello World"
 
 //alert(`${str}`)
+console.log(str)
