@@ -9,6 +9,8 @@ h1{
     color: azure;
     font-size: 22px;
     background-color: rgb(45, 43, 43);
+    margin-right: 10px;
+    margin-left: 10px;
     }
 
 a{
@@ -37,9 +39,9 @@ h2{
     padding: 20px;
     text-align: center;
     background-color: blue;
-    width: 50%;
+    width: 48%;
     position:absolute;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 23%;
 }
 
@@ -110,7 +112,8 @@ h2{
     margin: 7px;
     padding: 10px;
     background-color: blue;
-    color: yellow;  
+    color: yellow;
+    font-size: larger; 
 }
 
   .back-button{
@@ -134,10 +137,11 @@ section{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 4px;
+  margin-top: 3px;
   margin-left:438px;
   margin-right: auto;
-  width: 109%;
+  width: 105%;
+  z-index: 10;
 }
 
 section:nth-child(odd){
@@ -148,7 +152,7 @@ section:nth-child(odd){
 }
 
 section:hover{
-  background-color: rgb(35, 142, 223);
+  background-color:  rgb(30, 140, 203);
   padding:6%;
   color:yellow;
 }
@@ -172,10 +176,10 @@ label{
       background-color: aqua;
   }
   .grid-container{
-      grid-template-columns: repeat(1,20%);
+      grid-template-columns: repeat(1,30%);
   }
   section:hover{
-    background-color: rgb(30, 140, 203);
+    background-color: rgb(7, 57, 86);
     padding:6%;
     color: yellow;
   }
